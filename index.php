@@ -5,7 +5,7 @@ class Movie {
 
     public $year;
 
-    public function __constructor($genre) {
+    public function __construct($genre) {
         $this->genre = $genre;
     }
 
@@ -15,13 +15,13 @@ class Movie {
     }
 }
 
-$FantasticBeasts = new Movie('Rock');
+$FantasticBeasts = new Movie('Fantasy');
     $FantasticBeasts->title = 'Fantastic Beasts: The Secrets of Dumbledore';
     $FantasticBeasts->year = 2022;
 
 var_dump($FantasticBeasts);
 
-$Sonic = new Movie('Rock');
+$Sonic = new Movie('Cartoon');
     $Sonic->title = 'Sonic the Hedgehog 2';
     $Sonic->year = 2022;
 
